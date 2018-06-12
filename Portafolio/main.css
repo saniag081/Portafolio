@@ -1,0 +1,965 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?60tgis');
+  src:  url('fonts/icomoon.eot?60tgis#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?60tgis') format('truetype'),
+    url('fonts/icomoon.woff?60tgis') format('woff'),
+    url('fonts/icomoon.svg?60tgis#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-camara:before {
+  content: "\e90f";
+}
+.icon-mensaje:before {
+  content: "\e96d";
+}
+.icon-codigo:before {
+  content: "\ea80";
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea91";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-balon:before {
+  content: "\eaa7";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+
+
+body
+{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu
+{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.menu ul 
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+}
+
+.menu li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.menu li 
+{
+    margin-right: 8px;
+    margin: 13px;
+    font-size: 21px;
+}
+
+.foto 
+{
+    border-radius: 156px;    
+    position: relative;
+    top: 140px;
+    float: left;
+    left: 100px;
+}
+
+.presentacion 
+{
+    height: 601px;
+    border-bottom: 2px solid #D8D8D8;
+}
+
+.presentacion h1
+{
+    font-size: 47px;
+    margin: 0px;
+}
+
+.contenedor
+{
+    position: relative;
+    top: 144px;
+    width: 1000px;
+    left: 190px;
+    margin: 0px 13px;
+
+}
+
+.contenedor p 
+{
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 76px;
+}
+
+.boton
+{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 22px;
+    background: #08298A;
+    font-size: 22px;
+}
+
+.blog
+{
+    background-color: #F2F2F2;
+    height: 980px;
+    border-bottom: 2px solid #E6E6E6;
+}
+.blog h2 
+{
+    margin-bottom: 274px;
+    text-align: center;
+    margin-top: 0;
+    position: relative;
+    top: 157px;
+    font-size: 37px;
+}
+
+.blog h3
+{
+    font-size: 30px;
+}
+
+.icon-mensaje
+{
+    color: #F78181;
+    font-size: 90px;
+}
+
+.icon-camara
+{
+    color: #F78181;
+    font-size: 90px;
+}
+
+.icon-codigo
+{
+    color: #F78181;
+    font-size: 90px;
+}
+
+.contenedor2
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.contenedor2 p
+{
+    font-size: 20px;
+}
+
+.contenedor2 section
+{
+    width: 600px;
+    margin:0px 39px;
+}
+
+.seccion1
+{
+    text-align: center;
+    border: 2px solid #D8D8D8;
+    border-radius: 2px;
+    padding: 25px;
+    background-color: white;
+}
+
+.seccion2
+{
+    text-align: center;
+    border: 2px solid #D8D8D8;
+    border-radius: 2px;
+    padding: 25px;
+    background-color: white;
+}
+
+.seccion3
+{
+    text-align: center;
+    border: 2px solid #D8D8D8;
+    border-radius: 2px;
+    padding: 25px;
+    background-color: white;
+}
+
+.blog a 
+{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 22px;
+    background: #08298A;
+    margin-left: 65px;
+}
+
+.mi_trabajo h2
+{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 230px;
+    font-size: 37px;
+    position: relative;
+    top: 108px;
+}
+
+.mi_trabajo
+{
+    background-color: #F0EEFD;
+    height: 1170px;
+
+}
+
+.plantillas
+{
+    display: flex;
+    justify-content: center;
+}
+
+.plantillas2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.trabajo1
+{
+    margin-right: 45px;
+    border: 2px solid #E6E6E6;
+    background-color: #F2F2F2;
+    margin-bottom: 45px;
+}
+
+.trabajo1 h3
+{
+    text-align: center;
+    padding: 15px;
+}
+
+.trabajo2 h3
+{
+    text-align: center;
+    padding: 15px;
+}
+
+.trabajo2
+{
+    margin-right: 45px;
+    border: 2px solid #E6E6E6;
+    background-color: #F2F2F2;
+    margin-bottom: 45px;
+}
+
+.trabajo3 h3
+{
+    text-align: center;
+    padding: 15px;
+}
+
+.trabajo3
+{
+    border: 2px solid #E6E6E6;
+    background-color: #F2F2F2;
+    margin-bottom: 45px; 
+}
+
+.trabajo4 h3 
+{
+    text-align: center;
+    padding: 15px;
+}
+
+.trabajo4
+{
+    margin-right: 45px;
+    border: 2px solid #E6E6E6;
+    background-color: #F2F2F2;
+    margin-bottom: 45px;
+}
+
+.trabajo5 h3
+{
+    text-align: center;
+    padding: 15px;
+}
+
+.trabajo5
+{
+    margin-right: 45px;
+    border: 2px solid #E6E6E6;
+    background-color: #F2F2F2;
+    margin-bottom: 45px;
+}
+
+.trabajo6 h3
+{
+    text-align: center;
+    padding: 15px;
+}
+
+.trabajo6
+{
+    border: 2px solid #E6E6E6;
+    background-color: #F2F2F2;
+    margin-bottom: 45px;
+}
+
+.boton3
+{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 22px;
+    background: #08298A;
+    font-size: 22px;
+    margin-left: 100px;
+    position: relative;
+    top: 54px;
+}
+
+.contacto 
+{
+    background-color: #151515;
+    height: 1350px;
+    color: white;
+}
+
+.formulario h2
+{
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 250px;
+    position: relative;
+    top: 100px;
+}
+
+.formulario input
+{
+    border: none;
+    padding: 19px;
+    border-radius: 8px;
+    background: #2E2E2E;
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+
+.inputs
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.inputs input
+{
+    width: 100%;
+
+}
+
+.inputs2
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+textarea
+{
+    background-color: #2E2E2E;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 27px;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.boton4
+{
+    color:white;
+}
+
+.inputs2 p
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+.icon
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.icon span
+{
+    font-size: 40px;
+    margin-right: 25px; 
+}
+
+.derechos
+{
+    display: flex;
+    justify-content: center;
+}
+
+.derechos p
+{
+    margin-right: 20px;
+    font-size: 20px;
+} 
+
+@media screen and (max-width: 1242px)
+{
+    .presentacion h1 
+    {
+        font-size: 41xpx;
+    }
+
+    .contenedor p
+    {
+        font-size: 22px;
+    }
+
+    .contenedor
+    {
+        width: 946px;
+    }
+    .boton
+    {
+        font-size: 20px;
+    }
+    .blog h3 
+    {
+        font-size: 25px;
+    }
+    .contenedor2 p
+    {
+        font-size: 18px;
+    }
+    .blog a 
+    {
+        font-size: 20px;
+    }
+    .blog h2 
+    {
+        font-size: 32px;
+    }
+    .mi_trabajo h2 
+    {
+        font-size: 32px;
+    }
+    .boton3
+    {
+        font-size: 19px;
+    }
+    .formulario h2 
+    {
+        font-size: 35px;
+    }
+    .inputs2 p 
+    {
+        font-size: 27px;
+    }
+    .icon span 
+    {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1176px)
+{
+    .mi_trabajo img 
+    {
+        width: 290px;
+    }
+    .derechos p
+    {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1164px)
+{
+    .contenedor p 
+    {
+        font-size: 21px;
+    }
+    .presentacion h1 
+    {
+        font-size: 40px;
+    }
+    .contenedor
+    {
+        width: 845px;
+        left: 168px;
+    }
+    .foto
+    {
+        width: 295px;
+    }
+    .menu li 
+    {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1054px)
+{
+    .presentacion h1 
+    {
+        font-size: 36px;
+    }
+    .contenedor p 
+    {
+        font-size: 20px;
+    }
+    .contenedor
+    {
+        width: 729px;
+    }
+    .foto
+    {
+        width: 284px;
+    }
+    .boton
+    {
+        font-size: 18px;
+
+    }
+    .blog span 
+    {
+        font-size: 84px;
+    }
+    .blog h3 
+    {
+        font-size: 23px;
+    }
+    .blog a 
+    {
+        font-size: 18px;
+    }
+    .plantillas h3 
+    {
+        font-size: 18px;
+    }
+    .formulario h2 
+    {
+        font-size: 32px;
+    }
+    .inputs2 p 
+    {
+        font-size: 25px;
+    }
+    .contenedor2 section 
+    {
+        margin: 0px 24px;
+    }
+    .plantillas
+    {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 982px)
+{
+    .trabajo1
+    {
+        margin-right: 15px;
+    }
+    .trabajo2{
+        margin-right: 0;
+    }
+    .trabajo3
+    {
+        margin-left: 15px;
+    }
+    .trabajo4
+    {
+        margin-right: 15px;
+    }
+    .trabajo5
+    {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 920px)
+{
+    .contenedor
+    {
+        width: 657px;
+        left: 131px;
+    }
+    .foto
+    {
+        width: 272px;
+    }
+    .trabajo1
+    {
+        margin-right: 1px;
+    }
+    .trabajo3
+    {
+        margin-left: 1px;
+    }
+    .trabajo4
+    {
+        margin-right: 1px
+    }
+    .trabajo5
+    {
+        margin-right: 1px
+    }
+}
+
+@media screen and (max-width: 888px)
+{
+    .foto
+    {
+        float: none;
+        top: 120px;
+        left: 133px;
+    }
+    .presentacion
+    {
+        height: 773px;
+    }
+    .blog h2 
+    {
+        font-size:28px;
+    }
+    .contenedor2
+    {
+        display: initial;
+    }
+    .blog
+    {
+        height: 1640px;    
+    }
+    .contenedor2 section 
+    {
+        width: auto;
+        margin-right: 25px;
+        height: 300px;
+        margin-bottom: 30px;    
+    }
+    .blog a 
+    {
+        position: relative;
+        top: 100px;
+    }
+    .plantillas
+    {
+        display: initial;
+    }
+    .mi_trabajo img 
+    {
+        width: 100%;
+    }
+    .plantillas div 
+    {
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+    .mi_trabajo
+    {
+        height: 2600px;
+    }
+    .plantillas2
+    {
+        display: initial;
+    }
+    .plantillas2 div 
+    {
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+}
+
+@media screen and (max-width: 826px)
+{
+    .contenedor
+    {
+        width: 648px;
+        left: 38px;
+    }
+    .mi_trabajo h2 
+    {
+        font-size: 26px;
+    }
+    .inputs2 p 
+    {
+        font-size: 21px;
+    }
+    .icon span 
+    {
+        font-size: 28px;
+    }
+    .derechos p 
+    {
+        font-size: 15px;
+    }
+} 
+
+@media screen and (max-width: 720px)
+{
+    .contenedor
+    {
+        width: 531px;    
+    }
+    .inputs
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 60px;
+    }
+    .inputs2
+    {
+        margin-left: 28px;
+        margin-right: 22px;;
+    }
+    .formulario h2 
+    {
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width: 588px)
+{
+    .contenedor p 
+    {
+        font-size:18px;
+    }
+    .contenedor 
+    {
+        width: 411px;
+    }
+    .presentacion h1 
+    {
+        font-size: 33px;
+    }
+    .boton 
+    {
+        font-size: 16px;
+    }
+    .foto 
+    {
+        width: 265px;
+    }
+    .blog h2 
+    {
+        font-size: 25px;
+    }
+    .blog a 
+    {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .mi_trabajo h2 
+    {
+        margin-left: 19px;
+        margin-right: 19px;
+    }
+    .plantillas div 
+    {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .plantillas2 div 
+    {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .boton3
+    {
+        font-size: 16px;
+    }
+    .formulario h2
+    {
+        font-size: 25px;
+    }
+    .derechos
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .menu li 
+    {
+        font-size: 16px;
+    }
+    .foto
+    {
+        width: 246px;
+        left: 112px;
+    }
+    .presentacion h1 
+    {
+        font-size: 31px;
+    }
+    .contenedor p 
+    {
+        font-size: 17px;
+    }
+    .contenedor
+    {
+        width: 300px;
+    }
+    .blog h2 
+    {
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    .plantillas div 
+    {
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+    .plantillas2 div 
+    {
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+}
+
+@media screen and (max-width: 414px)
+{
+    .foto
+    {
+        width: 228px;
+        left: 95px;
+    }
+    .contenedor
+    {
+        left: 12px;
+    }
+    .plantillas div
+    {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .plantillas2 div 
+    {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .boton3
+    {
+        margin-left: 67px;
+    }
+    .icon span 
+    {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 376px)
+{
+    .foto
+    {
+        left: 75px;
+    }
+    .menu li 
+    {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 342px)
+{
+    .foto
+    {
+        left: 58px;
+        width: 220px;
+    }
+    .contenedor
+    {
+        width: 280px;
+    }
+    .boton
+    {
+        font-size: 14px;
+    }
+    .menu li 
+    {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px)
+{
+    .foto
+    {
+        left: 50px;
+    }
+    .blog a 
+    {
+        margin-left: 31px;
+    }
+    .mi_trabajo h2 
+    {
+        font-size: 23px;
+    }
+    .boton3
+    {
+        margin-left: 44px;
+    }
+    .formulario h2 
+    {
+        font-size: 23px;
+    }
+}
